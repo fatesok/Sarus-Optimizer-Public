@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Airport transit hub capacity concept</title>
+  <desc id="desc">A concept diagram showing regional transit corridors feeding an airport transit hub with station, bus, curb, parking, and connector constraints.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="#f8fafc"/>
+  <text x="70" y="72" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="800" fill="#0f172a">Airport Transit Hub Capacity Planning</text>
+  <text x="70" y="108" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#475569">Regional demand, candidate transit systems and hub constraints are evaluated as connected decisions.</text>
+
+  <g transform="translate(70,150)">
+    <rect x="0" y="0" width="710" height="470" rx="30" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)"/>
+    <text x="34" y="45" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Regional access network</text>
+
+    <circle cx="355" cy="245" r="74" fill="#ccfbf1" stroke="#0f766e" stroke-width="4"/>
+    <text x="310" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">Airport</text>
+    <text x="310" y="266" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" fill="#334155">Transit Hub</text>
+
+    <g fill="#e0f2fe" stroke="#0284c7" stroke-width="3">
+      <circle cx="115" cy="95" r="38"/>
+      <circle cx="595" cy="95" r="38"/>
+      <circle cx="105" cy="380" r="38"/>
+      <circle cx="615" cy="382" r="38"/>
+      <circle cx="355" cy="60" r="34"/>
+    </g>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">
+      <text x="115" y="100">West</text>
+      <text x="595" y="100">East</text>
+      <text x="105" y="385">South</text>
+      <text x="615" y="387">North</text>
+      <text x="355" y="65">Core</text>
+    </g>
+    <line x1="150" y1="120" x2="295" y2="205" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="560" y1="120" x2="415" y2="205" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="140" y1="365" x2="295" y2="285" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="580" y1="365" x2="415" y2="285" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+    <line x1="355" y1="94" x2="355" y2="165" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <text x="34" y="445" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" fill="#475569">Candidate corridors and out-of-cluster demand feed the airport hub under service constraints.</text>
+  </g>
+
+  <g transform="translate(830,150)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="470" rx="30" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="32" y="45" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Capacity checks</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#334155">
+      <text x="32" y="100">• Station platforms</text>
+      <text x="32" y="140">• Bus and LRT bays</text>
+      <text x="32" y="180">• Concourse areas</text>
+      <text x="32" y="220">• Vertical circulation</text>
+      <text x="32" y="260">• Terminal connector</text>
+      <text x="32" y="300">• Road, curb, parking</text>
+    </g>
+    <rect x="32" y="350" width="235" height="74" rx="18" fill="#f0fdfa" stroke="#2dd4bf"/>
+    <text x="55" y="380" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a">Public output</text>
+    <text x="55" y="405" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#475569">Hub needs and constraints</text>
+  </g>
+</svg>
