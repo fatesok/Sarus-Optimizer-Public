@@ -33,6 +33,7 @@ Many facility and infrastructure decisions fail when location, capacity, demand,
 | FAQ | [FAQ](FAQ.md) | Published |
 | Public changes | [Changelog](CHANGELOG.md) | Published |
 | Rights notice | [Rights](RIGHTS.md) | Published |
+| Manual GitHub settings | [GitHub Settings To Do](GITHUB_SETTINGS_TODO.md) | Owner action checklist |
 
 ## Public case narratives
 
