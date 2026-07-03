@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarus-Optimizer | Public Roadmap and Benchmark Summaries</title>
+  <meta name="description" content="Public roadmap, use cases, case narratives and benchmark-summary approach for Sarus-Optimizer: an explainable facility, transport, capacity and ROI optimization system.">
+  <link rel="canonical" href="https://fatesok.github.io/Sarus-Optimizer-Public/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sarus-Optimizer">
+  <meta property="og:title" content="Sarus-Optimizer">
+  <meta property="og:description" content="Explainable facility, transport, capacity and ROI optimization. Public roadmap, use cases, case narratives and benchmark summaries.">
+  <meta property="og:url" content="https://fatesok.github.io/Sarus-Optimizer-Public/">
+  <meta property="og:image" content="https://fatesok.github.io/Sarus-Optimizer-Public/assets/sarus-optimizer-social-preview.svg">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="Sarus-Optimizer public preview: explainable facility, transport, capacity and ROI optimization.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sarus-Optimizer">
+  <meta name="twitter:description" content="Public roadmap, use cases, case narratives and benchmark summaries for explainable facility, transport, capacity and ROI optimization.">
+  <meta name="twitter:image" content="https://fatesok.github.io/Sarus-Optimizer-Public/assets/sarus-optimizer-social-preview.svg">
+
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #cbd5e1;
+      --paper: #f8fafc;
+      --blue: #1e3a5f;
+      --accent: #2563eb;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 20px 72px; }
+    .hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 58%, #e2e8f0 100%);
+      color: white;
+      border-radius: 32px;
+      padding: 56px;
+      box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+    }
+    .hero h1 { margin: 0 0 14px; font-size: clamp(42px, 7vw, 76px); line-height: 1; letter-spacing: -0.05em; }
+    .hero p { max-width: 760px; font-size: 22px; margin: 0 0 28px; color: #dbeafe; }
+    .hero a { display: inline-block; background: white; color: var(--ink); text-decoration: none; font-weight: 800; padding: 13px 18px; border-radius: 999px; margin-right: 10px; margin-top: 10px; }
+    .hero a.secondary { background: rgba(255,255,255,0.14); color: white; border: 1px solid rgba(255,255,255,0.36); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 28px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 24px; box-shadow: 0 12px 32px rgba(15, 23, 42, 0.07); }
+    .card h2, .card h3 { margin-top: 0; }
+    .card a { color: var(--accent); font-weight: 700; text-decoration: none; }
+    .visual { width: 100%; border-radius: 24px; border: 1px solid var(--line); background: white; margin-top: 28px; }
+    .note { color: var(--muted); }
+    footer { margin-top: 42px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Sarus-Optimizer</h1>
+      <p>Public roadmap, use cases, case narratives and benchmark-summary approach for explainable facility, transport, capacity and ROI optimization.</p>
+      <a href="https://github.com/fatesok/Sarus-Optimizer-Public">Open GitHub repository</a>
+      <a class="secondary" href="VISION.md">Read the vision</a>
+    </section>
+
+    <img class="visual" src="assets/facility-optimization-framework.svg" alt="Facility optimization framework diagram">
+
+    <section class="grid" aria-label="Public documents">
+      <article class="card">
+        <h2>Public documents</h2>
+        <p><a href="VISION.md">Vision</a></p>
+        <p><a href="ROADMAP.md">Roadmap</a></p>
+        <p><a href="MILESTONES.md">Milestones</a></p>
+        <p><a href="USE_CASES.md">Use cases</a></p>
+        <p><a href="BENCHMARK_SUMMARIES.md">Benchmark summaries</a></p>
+      </article>
+      <article class="card">
+        <h2>Case narratives</h2>
+        <p><a href="TORONTO_STADIUM_CASE.md">Toronto stadium planning case</a></p>
+        <p><a href="AIRPORT_TRANSIT_CASE.md">Airport-transit hub planning case</a></p>
+        <p class="note">Public narratives explain the planning questions without exposing source code.</p>
+      </article>
+      <article class="card">
+        <h2>Status</h2>
+        <p>Sarus-Optimizer is in private development. This site publishes public-facing documentation only.</p>
+        <p class="note">No final numerical benchmark claims are currently published.</p>
+      </article>
+    </section>
+
+    <section class="grid" aria-label="Key principles">
+      <article class="card">
+        <h3>Optimize location and capacity together</h3>
+        <p>Facility size and location are treated as connected decisions.</p>
+      </article>
+      <article class="card">
+        <h3>Treat access as a constraint</h3>
+        <p>Walking, transit, roads, parking and station capacity can limit feasible demand.</p>
+      </article>
+      <article class="card">
+        <h3>Publish evidence, not code</h3>
+        <p>Public material focuses on roadmap, use cases, case narratives and reviewed summaries.</p>
+      </article>
+    </section>
+
+    <footer>
+      Copyright © Sarus Tesis Planlama. All rights reserved. Source code, private implementation, internal tasks and proprietary data remain private.
+    </footer>
+  </main>
+</body>
+</html>
