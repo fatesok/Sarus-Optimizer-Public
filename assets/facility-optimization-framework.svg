@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sarus-Optimizer facility optimization framework</title>
+  <desc id="desc">A framework diagram showing inputs, optimizer core, constraints, sensitivity, and planning outputs.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="#f8fafc"/>
+  <text x="70" y="72" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="800" fill="#0f172a">Facility Optimization Framework</text>
+  <text x="70" y="108" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#475569">Location, capacity, demand, access, cost and value are evaluated together.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="160" width="260" height="370" rx="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="100" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Inputs</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#334155">
+      <text x="100" y="255">• Spatial demand</text>
+      <text x="100" y="295">• Candidate sites</text>
+      <text x="100" y="335">• Event scenarios</text>
+      <text x="100" y="375">• Transport modes</text>
+      <text x="100" y="415">• Costs and revenues</text>
+      <text x="100" y="455">• Service assumptions</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="185" width="260" height="320" rx="32" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+    <text x="512" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800" fill="#0f172a">Sarus-Optimizer</text>
+    <text x="512" y="274" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#334155">Explainable decision core</text>
+    <line x1="512" y1="302" x2="688" y2="302" stroke="#93c5fd" stroke-width="2"/>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#1e3a5f">
+      <text x="512" y="345">Location + capacity</text>
+      <text x="512" y="385">Constraint checks</text>
+      <text x="512" y="425">Life-cycle value</text>
+      <text x="512" y="465">Sensitivity testing</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="870" y="160" width="260" height="370" rx="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="900" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Outputs</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#334155">
+      <text x="900" y="255">• Recommended option</text>
+      <text x="900" y="295">• Feasible capacity</text>
+      <text x="900" y="335">• Constraint status</text>
+      <text x="900" y="375">• Cost / revenue view</text>
+      <text x="900" y="415">• ROI or value range</text>
+      <text x="900" y="455">• Benchmark summary</text>
+    </g>
+  </g>
+
+  <line x1="340" y1="345" x2="455" y2="345" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="740" y1="345" x2="855" y2="345" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="210" y="590" width="780" height="70" rx="22" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="250" y="633" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Public evidence:</text>
+    <text x="412" y="633" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" fill="#475569">roadmaps, use cases, benchmark summaries and reviewed planning outputs</text>
+  </g>
+</svg>
